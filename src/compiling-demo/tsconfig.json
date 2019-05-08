@@ -1,0 +1,12 @@
+// More information on tsconfigs:
+// https://www.typescriptlang.org/docs/handbook/tsconfig-json.html
+{
+  "compilerOptions": {
+    "declaration": true,
+    "outDir": "lib",
+    "sourceMap": true,
+    "target": "es2017",
+    "module": "commonjs",
+  },
+  "include": ["src"]
+}
