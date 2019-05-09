@@ -29,7 +29,10 @@ Navigate into the `exercises/1-intro-to-compiling` folder.
 Run `tsc src/index.ts`. See the errors in your console?
 Run `tsc src/index.ts --target ES2015` or `tsc src/index.ts --target ES2017`. Look at how the code has changed.
 
-Now run `tsc`. Go into the newly created `lib` folder and look at the index.js file.
+Now let's try running a TypeScript file with node. Try `node src/index.ts`.
+Run `tsc src/index.ts --target ES2017 --module commonjs`. Looks like it compiled without issues; try running `node src/index.js`, rather than `.ts`.
+
+Examine the tsconfig. Now run `tsc`. Go into the newly created `lib` folder and look at the index.js file.
 
 Learn more about tsconfigs here: https://www.typescriptlang.org/docs/handbook/tsconfig-json.html
 
