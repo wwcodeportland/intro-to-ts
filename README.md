@@ -35,5 +35,6 @@ Learn more about tsconfigs here: https://www.typescriptlang.org/docs/handbook/ts
 
 ### Exercises: Code Sandbox
 
-Use the code sandbox links here to run the exercises:
+Use the code sandbox links here to run the exercises: https://codesandbox.io/s/l74z601pj9
+
 BONUS: Run the exercises locally, using your own tsconfig.
